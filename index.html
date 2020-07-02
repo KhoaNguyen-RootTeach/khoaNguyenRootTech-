@@ -1,22 +1,19 @@
-<tittle> my first webpage </tittle> 
-<h1>Hello world!! </h1>
-<body> 
-  <h2>My name is Khoa Nguyen</h2> 
-  <h3> This is a little bit about myself</h3>
-  <p1> I am currently a freshman at Santa Ana High School. After this summer I will be a sophomore. A fact about me is that I came to the US in September last year. I love to become a doctor but I am interested in coding so I took this program.</p1>   
-  <body1>
-  <h4> This is some of my hobbies:</h4>
-    <ol> 
-   <li> Listen to music</li>
-   <li>Reading science magazine.  </li>
-      <li> Take care of animals</li>
-      <li>Riding a bike to the beach</li>
-      <li>Studying about the things I want to do</li>
-    </ol>
-    <h4>I live with my:</h4>
-    <ul>Father</ul>
-    <ul>Mother </ul>
-    <ul>Two younger sister</ul>
-  </body1>
-  <h5>Thank you for reading</h5>
-  </body> 
+<html>
+<head>
+<script src=”p5.js”></script>
+</head>
+<body>
+<script id=”script” type=”text/javascript”>
+
+var img;
+
+function setup(){
+createCanvas(displayWidth, displayHeight);
+img = loadImage(‘food.jpg’);
+background(0);
+}
+
+function draw(){
+image(img, 75, 150);
+}
+</script> </body> </html>
