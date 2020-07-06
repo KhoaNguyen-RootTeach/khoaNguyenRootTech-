@@ -1,0 +1,39 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <style>
+    body{
+       background-image: url('reptileBack.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center;
+    background-size: 100%;
+    }
+    h1{
+      border: 5px solid black;
+      font-size: 300%;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    }
+    h2{
+      color: white;
+    }
+  </style>
+</head>
+<div style="background:white">
+<h1> <img src="reptilePNG.png"height="30%"> Reptile Champion</h1>
+</div>
+<body>
+<script id=”script” type=”text/javascript”>
+
+var img;
+
+function setup(){
+createCanvas(displayWidth, displayHeight);
+img = loadImage(‘bd.jpg.jpg’);
+background(0);
+}
+
+function draw(){
+image(img, 75, 150);
+}
+</script> </body> </html>
